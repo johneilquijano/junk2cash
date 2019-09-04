@@ -1,7 +1,7 @@
 <?php
 
 require '../connection/dbconnect.php';
-include 'functions.php';
+include 'functions.php'; 
 
 $application_no 	= $_POST['application_no'];
 $precinct_no 		= $_POST['precinct_no'];
