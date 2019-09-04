@@ -7,7 +7,7 @@ require '../connection/dbconnect.php';
 // login_user
 	$email = $_POST['email'];
 	$password = md5($_POST['password']);
-
+sdsd
 
 	$sql = "SELECT id FROM user WHERE email='$email' AND password = '$password'";
 	$result = mysqli_query($mysqli,$sql);
